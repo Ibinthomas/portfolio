@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar {
+    background: linear-gradient(90deg, #010101, #040404, #000000);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+#home {
+    background: linear-gradient(12deg, #817e7e, #000000);
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#home img {
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%; */
+    /* border: 20px solid #fff; */
+    margin-bottom: 20px;
+}
+
+#about, #skills, #education, #contact {
+    padding: 80px 20px;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.skill-bar span {
+    font-weight: 500;
+}
+
+.skill-bar .progress {
+    background: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.skill-bar .progress-bar {
+    height: 100%;
+}
+
+footer {
+    background: #203a43;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #89f7fe;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #66a6ff;
+}
